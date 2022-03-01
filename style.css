@@ -40,3 +40,29 @@ body {
     display: inline-block;
     text-decoration: underline;
 }
+
+/* Banner */
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner-title {
+    color: #222222;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.banner-subtitle {
+    color: #595959;
+    font-size: 20px;
+    margin-top: 8px;
+}
